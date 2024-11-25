@@ -2,7 +2,7 @@ module OV2640_Registers (
     input clk, 
     input resend, 
     input advance, 
-    input [8:0] zoom,
+    input [7:0] zoom,
     output [15:0] command, 
     output finished
 );

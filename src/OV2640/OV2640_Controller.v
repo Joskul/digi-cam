@@ -7,7 +7,7 @@ module OV2640_Controller (
     output reset,                           // RESET signal for OV2640
     output pwdn,                            // PWDN signal for OV2640,
     
-    input zoom
+    input [7:0]zoom
 );
 
     // Internal signals
