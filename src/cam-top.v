@@ -3,6 +3,10 @@ module camera_top (
     input               I_clk           , // 27MHz
     input               I_rst_n         ,
     output     [1:0]    O_led           ,
+    // User Input
+    input               I_zoom_in       ,
+    input               I_zoom_out      ,
+    input               I_shutter       ,
     // OV2640   
     inout               SDA             ,
     inout               SCL             ,
